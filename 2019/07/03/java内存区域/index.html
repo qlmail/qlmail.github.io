@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Java,Jvm,">
 
 
 
@@ -77,13 +77,21 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="pxset">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="jvm运行时数据区域java虚拟机在执行java程序的过程中将它所管理的内存划分为以下几个运行时数据区域：  程序计数器（Program Counter Register) 虚拟机栈（VM Stack) 本地方法栈（Native Method Stack) 堆（Heap) 方法区（Method Area)  线程私有区域（程序计数器、虚拟机栈、本地方法栈），线程共享区域（堆、方法区），直接内存。线">
+<meta name="keywords" content="Java,Jvm">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java内存区域">
+<meta property="og:url" content="http://yoursite.com/2019/07/03/java内存区域/index.html">
 <meta property="og:site_name" content="pxset">
+<meta property="og:description" content="jvm运行时数据区域java虚拟机在执行java程序的过程中将它所管理的内存划分为以下几个运行时数据区域：  程序计数器（Program Counter Register) 虚拟机栈（VM Stack) 本地方法栈（Native Method Stack) 堆（Heap) 方法区（Method Area)  线程私有区域（程序计数器、虚拟机栈、本地方法栈），线程共享区域（堆、方法区），直接内存。线">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://pxset.oss-cn-beijing.aliyuncs.com/blog/jvm-runtime-memory.png">
+<meta property="og:image" content="http://pxset.oss-cn-beijing.aliyuncs.com/blog/Jvm%E5%86%85%E5%AD%98%E5%8C%BA%E5%9F%9F.png">
+<meta property="og:updated_time" content="2019-07-03T06:45:57.874Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="pxset">
+<meta name="twitter:title" content="java内存区域">
+<meta name="twitter:description" content="jvm运行时数据区域java虚拟机在执行java程序的过程中将它所管理的内存划分为以下几个运行时数据区域：  程序计数器（Program Counter Register) 虚拟机栈（VM Stack) 本地方法栈（Native Method Stack) 堆（Heap) 方法区（Method Area)  线程私有区域（程序计数器、虚拟机栈、本地方法栈），线程共享区域（堆、方法区），直接内存。线">
+<meta name="twitter:image" content="http://pxset.oss-cn-beijing.aliyuncs.com/blog/jvm-runtime-memory.png">
 
 
 
@@ -113,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2019/07/03/java内存区域/">
 
 
 
 
 
-  <title>pxset</title>
+  <title>java内存区域 | pxset</title>
   
 
 
@@ -138,8 +146,7 @@
     
   
 
-  <div class="container sidebar-position-right 
-  page-home">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -242,9 +249,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -274,9 +281,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/07/03/java内存区域/" itemprop="url">java内存区域</a></h1>
+          <h1 class="post-title" itemprop="name headline">java内存区域</h1>
         
 
         <div class="post-meta">
@@ -379,9 +384,7 @@
       
 
       
-        
-          
-            <h3 id="jvm运行时数据区域"><a href="#jvm运行时数据区域" class="headerlink" title="jvm运行时数据区域"></a>jvm运行时数据区域</h3><p>java虚拟机在执行java程序的过程中将它所管理的内存划分为以下几个运行时数据区域：</p>
+        <h3 id="jvm运行时数据区域"><a href="#jvm运行时数据区域" class="headerlink" title="jvm运行时数据区域"></a>jvm运行时数据区域</h3><p>java虚拟机在执行java程序的过程中将它所管理的内存划分为以下几个运行时数据区域：</p>
 <ul>
 <li>程序计数器（Program Counter Register)</li>
 <li>虚拟机栈（VM Stack)</li>
@@ -424,8 +427,6 @@
 <li>深入理解Java虚拟机-周志明 著</li>
 </ul>
 
-          
-        
       
     </div>
     
@@ -440,367 +441,38 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/27/Mysql中update的参数来自select的查询数据/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="pstune">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="pxset">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/27/Mysql中update的参数来自select的查询数据/" itemprop="url">Mysql中update的参数来自select的查询数据</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-27T21:13:51+08:00">
-                2019-03-27
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Mysql/" itemprop="url" rel="index">
-                    <span itemprop="name">Mysql</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
+            <a href="/tags/Java/" rel="tag"># Java</a>
           
-
+            <a href="/tags/Jvm/" rel="tag"># Jvm</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Words count in article&#58;</span>
-                
-                <span title="Words count in article">
-                  
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Reading time &asymp;</span>
-                
-                <span title="Reading time">
-                  
-                </span>
-              
-            </div>
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最近在进行Mysql表的结构进行调整时，需要将原来的以外键引用的两个表进行合并成一个表，将外键表的一些字段进行合并到主表中，但是主表和外表数据量较大，此时就需要将update和select结合使用，在mysql中如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">update A inner join(select id,name from B) c on A.id = c.id set A.name = c.name;</span><br></pre></td></tr></table></figure>
-<p>根据AB两个表的id相同为条件,把A表的name修改为B的sql语句就如上所示</p>
-<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ol>
-<li><a href="https://blog.csdn.net/qq_36823916/article/details/79403696" target="_blank" rel="noopener">mysql中update和select结合使用</a></li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
       
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/14/微信小程序使用svg字体图标/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="pstune">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="pxset">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/14/微信小程序使用svg字体图标/" itemprop="url">微信小程序使用svg字体图标</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-14T22:15:29+08:00">
-                2019-03-14
-              </time>
+              <a href="/2019/03/27/Mysql中update的参数来自select的查询数据/" rel="next" title="Mysql中update的参数来自select的查询数据">
+                <i class="fa fa-chevron-left"></i> Mysql中update的参数来自select的查询数据
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/微信小程序/" itemprop="url" rel="index">
-                    <span itemprop="name">微信小程序</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Words count in article&#58;</span>
-                
-                <span title="Words count in article">
-                  
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Reading time &asymp;</span>
-                
-                <span title="Reading time">
-                  
-                </span>
-              
-            </div>
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ol>
-<li><a href="https://www.jianshu.com/p/664e47666424" target="_blank" rel="noopener">微信小程序使用第三方FontIcon库的部分字体图标</a></li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -810,169 +482,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/06/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="pstune">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="pxset">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/03/06/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-06T17:11:53+08:00">
-                2019-03-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Words count in article&#58;</span>
-                
-                <span title="Words count in article">
-                  
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Reading time &asymp;</span>
-                
-                <span title="Reading time">
-                  
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -980,6 +494,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1000,8 +518,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -1061,6 +588,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#jvm运行时数据区域"><span class="nav-number">1.</span> <span class="nav-text">jvm运行时数据区域</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-程序计数器"><span class="nav-number">1.1.</span> <span class="nav-text">1. 程序计数器</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-虚拟机栈"><span class="nav-number">1.2.</span> <span class="nav-text">2. 虚拟机栈</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-本地方法栈"><span class="nav-number">1.3.</span> <span class="nav-text">3. 本地方法栈</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-堆"><span class="nav-number">1.4.</span> <span class="nav-text">4. 堆</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-方法区"><span class="nav-number">1.5.</span> <span class="nav-text">5. 方法区</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-直接内存-Direct-Memory"><span class="nav-number">1.6.</span> <span class="nav-text">6. 直接内存(Direct Memory)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#结构梳理"><span class="nav-number">2.</span> <span class="nav-text">结构梳理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用参考"><span class="nav-number">3.</span> <span class="nav-text">引用参考</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1217,6 +760,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
